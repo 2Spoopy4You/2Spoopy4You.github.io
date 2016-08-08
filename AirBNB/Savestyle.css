@@ -1,0 +1,222 @@
+/*nav*/
+body {
+  	margin :0px;
+  	width:100%;
+  	background-color: #f5f5f5;
+}
+
+#main {
+  	box-sizing: border-box;
+}
+#host, #register, #help, #login {
+  	float: right;
+  	padding: 10px;
+  	margin-top: 10px;
+  	font-family: 'Open Sans', sans-serif;
+  	margin-right: 19px;
+  	text-shadow: 1px 1px black
+
+
+}
+#host{
+  	border: solid 2px white;
+  	border-radius: 3px;
+}
+#container {
+  	width:100%;
+  	height : 750px;
+  	background-size: 100%;
+  	background-repeat: no-repeat;
+  	position: relative;
+}  	
+
+.host {
+
+	border: solid 1px white;
+	border-radius: 3px;
+}
+
+#logo {
+	float: left;
+	opacity: 0,9;
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.float  {
+	text-decoration: none;
+	color: white;
+}
+/*end navbar*/
+
+/*misc*/
+video {
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	bottom: -10px;
+}
+
+
+header {
+
+	top: 0px;
+	height: 50px;
+}
+.arrow {
+	font-size: 19px;
+}
+/*All*/
+
+.title {
+	vertical-align: middle;
+	margin-top: 200px;
+	color: white;
+	
+}
+.tb {
+	height: 275px;
+	width: 100%;
+	opacity: 0,9;
+}
+
+h2 {
+	font-size: 55px;
+	line-height: 10%;
+	font-weight: 700;
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	opacity: 0,9;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 10%;
+	color: white;
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	opacity: 1;
+}
+.search {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	text-align: center;
+	padding: 2%;
+	bottom: -15px;
+}
+.bar {
+	display: inline-block;
+}
+
+input {
+	padding: 10px 0px 10px 0px;
+	margin-right: -6px;
+	background-color: white;
+	border-top: none;
+	border-bottom: none;
+	position: ab
+}
+select {
+	padding: 9px 0px 9px 0px;
+	width: 150px;
+	text-align: center;
+	background-color: white;
+	border-top: none;
+	border-bottom: none;
+}	
+.where { 
+	width:365px;
+	overflow: auto;
+	float: left; 
+}
+ 
+.come, .go {
+	overflow: auto;
+	float: left;
+}
+button  {
+	height: 37px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: -5px;
+	color: white;
+	width:127px;
+	border-color: #ff5a5f;
+	background-color: #ff5a5f;
+	border-style: none;
+}
+h4 {
+	text-align: center;
+	font-size: 25px;
+	color: #484848;
+	font-weight: bold;
+	padding: 0;
+	margin:40px 0 0 0;
+}
+p {
+
+	text-align: center;
+	color: #484848;
+	font-size: 12px;
+	margin-top:10px;
+}
+.annecy {
+	height:400px;
+	width: 100%;
+	max-width: 400px;
+	background-image: url("https://a0.muscache.com/ic/discover/1544?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&crop=0.67xw:1xh;*,*&downsize=444px:400px");
+	margin-top: 299px:;
+	margin-left: 20px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;	
+	background-repeat:no-repeat;
+ 	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+span {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 200px;
+	font-weight: bold;
+	font-size: 31px;
+}
+.geneve {
+	height:400px;
+	width: 100%;
+	max-width: 400px;
+	margin-right: 20px;
+	background-image: url("https://a0.muscache.com/ic/discover/100?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=444px:400px");
+	color: white;
+	text-align: center;
+	display: inline-block;
+	background-repeat:no-repeat;
+ 	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+.montpellier {
+	height:400px;
+	width: 100%;
+	max-width:400px;
+	background-repeat: no-repeat; 
+	margin-right: 5px;
+	background-image: url("https://a0.muscache.com/ic/discover/2714?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=444px:400px");
+	color: white;
+	text-align: center;
+	display: inline-block;
+	background-repeat:no-repeat;
+ 	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	
+}
