@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            </head>
+            <body>
+              <script>
+	function hide(id){
+		e = document.getElementById(id)
+		if ( e.className == "hidden")
+			e.className = "show";
+		else
+			e.className = "hidden"
+
+	}
+</script>
+              <div class="jumbotron text-center page">
+                <div class="container">
+                  <h1>Prévention canicule</h1>
+                  <p> En cas de canicule, préservez votre santé et celle des personnes fragiles qui vous entourent.</p>
+                  <p>
+                    <a href="#" class="btn btn-primary btn-lg" role="button">En savoir plus sur la politique "Santé et développement" de la Métropole</a>
+                  </p>
+                  <h6 class="text-center">Clique sur les boutons qui suivent pour en savoir plus! </h6>
+                  <!-- 	<ul><li>Bleu = Infos</li><li>Rouge = Danger</li><li>Orange = Attention</li></ul> -->
+                </div>
+              </div>
+              <div class="first">
+                <h2>
+                  <span class="label btn btn-danger" onclick="hide('risque')">Les risques</span>
+                </h2>
+                <div class="hidden" id="risque">
+                  <h4 class="container">L'exposition à de fortes chaleurs est une agression pour l'organisme. On risque une déshydratation, l'aggravation d'une maladie chronique ou un coup de chaleur. Certains symptômes doivent alerter :</h4>
+                  <ul class="list">
+                    <li> des crampes musculaires au niveau des bras, des jambes, du ventre…</li>
+                    <li>plus grave, un épuisement peut se traduire par des étourdissements, une faiblesse, une insomnie inhabituelle…</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="scd">
+                <h2>
+                  <span class="label btn btn-info" onclick="hide('pave')">Qui peut être touché ?</span>
+                  <div class="hidden" id="pave">
+                    <h4 class="container"> Les travailleurs manuels exposés à la chaleur, les nourrissons, les personnes âgées, les sportifs, les personnes atteintes de certaines maladies chroniques sont particulièrement sensibles aux coups de chaleur.
+					Toute personne logée dans une habitation mal adaptée à la chaleur : logements en dernier étage, logements n'abritant ni endroit frais ni pièce climatisée…</h4>
+                  </div>
+                </div>
+                <div class="thr">
+                  <h2>
+                    <span class="label btn btn-warning" onclick="hide('chaleur')">Un risque grave : le coup de chaleur </span>
+                  </h2>
+                </div>
+                <div class="hidden" id="chaleur">
+                  <h4 class="container">L'adaptation à la chaleur induite par exposition à un environnement chaud demande du temps, au moins une semaine. Les effets de la chaleur surviennent lorsque le corps n'arrive plus à contrôler sa température qui augmente alors rapidement :</h4>
+                  <ul class="list text-center">
+                    <li>Niveau 1 : Coup de soleil - Rougeurs et douleurs, dans les cas graves gonflements, vésicules, fièvre et maux de tête.</li>
+                    <li>Niveau 2 : Crampes - Spasmes douloureux et forte transpiration.</li>
+                    <li>Niveau 3 : Épuisement - Forte transpiration, faiblesse, froideur et pâleur de la peau, évanouissements et vomissements.</li>
+                    <li>Niveau 4 : Coup de chaleur -Température élevée, peau sèche et chaude, confusion, perte de connaissance.</li>
+                  </ul>
+                </div>
+                <div class="frth">
+                  <h2>
+                    <span class="label btn btn-info" onclick="hide('conseil')">Quelques conseils</span>
+                  </h2>
+                </div>
+                <div class="hidden" id="conseil">
+                  <h4 class="container text-center">
+                    <p class="btn btn-info"onclick="hide('listun')">Protégez-vous de la chaleur !</p>
+                  </h4>
+                  <div class="hidden" id="listun">
+                    <ul class="list-group text-center" id="listun">
+                      <li class="list-group-item">- Fermez les volets et les rideaux des façades exposées au soleil.</li>
+                      <li class="list-group-item">- - Maintenez les fenêtres fermées tant que la température extérieure est supérieure à la température intérieure. Ouvrez-les la nuit, en provoquant des courants d'air.</li>
+                      <li class="list-group-item">- Évitez les sorties et les activités aux heures les plus chaudes (généralement entre 12 et 16h) et plus encore les activités physiques : sport, jardinage, bricolage…</li>
+                      <li class="list-group-item">- Si vous devez sortir, restez à l'ombre. Portez un chapeau, des vêtements légers (coton) et amples, de couleur claire. Emportez avec vous une bouteille d'eau.</li>
+                    </ul>
+                  </div>
+                  <h4 class="container text-center">
+                    <a class="btn btn-info" id="padd" onclick="hide('listdeux')">Rafraîchissez-vous !</a>
+                  </h4>
+                  <div class="hidden" id="listdeux">
+                    <ul class=" list-group text-center" id="listdeux">
+                      <li class="list-group-item">- Restez à l'intérieur de votre domicile dans les pièces les plus fraîches.</li>
+                      <li class="list-group-item">- Si vous ne disposez pas d'une pièce fraîche chez vous, rendez-vous et restez au moins deux heures dans des endroits climatisés ou, à défaut, dans des lieux ombragés ou frais : supermarchés, cinémas, musées… à proximité de votre domicile.</li>
+                      <li class="list-group-item">- Prenez régulièrement dans la journée des douches et/ou humidifiez-vous le corps plusieurs fois par jour à l'aide d'un brumisateur ou d'un gant de toilette.</li>
+                    </ul>
+                  </div>
+                  <h4 class="container text-center">
+                    <a class="btn btn-info" onclick="hide('listtrois')">
+Buvez et continuez à manger !</a>
+                  </h4>
+                  <div class="hidden" id="listtrois">
+                    <ul class=" list-group text-center">
+                      <li class="list-group-item">- Buvez le plus possible, même sans soif : eau, jus de fruit (pour les adultes, boire entre 1,5 à 2 litres par jour sauf contre-indications médicales ; pour l'enfant, il est recommandé d'apporter des boissons à hauteur de 100ml par kilo et par jour sauf contre-indications médicales).</li>
+                      <li class="list-group-item">- Si vous ne disposez pas d'une pièce fraîche chez vous, rendez-vous et restez au moins deux heures dans des endroits climatisés ou, à défaut, dans des lieux ombragés ou frais : supermarchés, cinémas, musées… à proximité de votre domicile.</li>
+                      <li class="list-group-item">- Prenez régulièrement dans la journée des douches et/ou humidifiez-vous le corps plusieurs fois par jour à l'aide d'un brumisateur ou d'un gant de toilette.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="pushing"></div>
+                <h5 class="container text-center">
+                  <u>En savoir plus </u>
+                </h5>
+                <h4 class="text-center">Les bons réflexes</h4>
+                <p class="text-center">
+                  <a href="#" class="btn btn-primary btn-xs" role="button">La canicule : les bons réflexes à partager (pdf - 1.6 Mo)</a>
+                </p>
+                <h5 class="text-center">Adresses utiles</h5>
+                <h5 class="text-center">Pour toute question, contactez la Maison du Rhône la plus proche de chez vous</h5>
+                <h5 class="text-center">
+                  <strong>
+En cas de symptôme, contacter directement votre médecin ou le 15 en cas d'urgence</strong>
+                </h5>
+                <p class="text-center">"Canicule info service" : 
+                  <a href="callto:0800066666">0 800 06 66 66 (N° Vert ®)</a>
+                </p>
+                <div class="frth">
+                  <h4>
+                    <span class="label btn btn-primary btn-xs" onclick="hide('liens')">Liens utiles</span>
+                  </h4>
+                </div>
+                <div class="hidden" id="liens">
+                  <ul class="text-center list-group">
+                    <li class="list-group-item">
+                      <a href="#">Préfecture du Rhône et de la région Rhône-Alpes</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#">Ministère de la Santé</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#">Institut national de prévention et d’éducation pour la santé (INPES)</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#">Institut de veille sanitaire (INVS)</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </body>
+        </html>
